@@ -5,6 +5,8 @@ int main(){
     int n;
     cout << "\nNhap so nguyen n = ";
 	cin >> n;
+	cout<<"\n----------------------------------\n";
+	
 }
 bool hoanthien(int a){
     int sum = 0;
@@ -23,4 +25,5 @@ int i = 0;
 		++i;
 	}
 	return false;
+}
 }
